@@ -1,7 +1,7 @@
 # Day 1 — BJT Transistors from Zero
 *2026-11-03 · Microelectronics*
 
-I'm learning the transistor from zero. I already know a few things from my microelectronics class, and since I'm a future hardware engineer inshaAllah and I really enjoy this stuff, I want to write it all down as simply as possible.
+I decided to start the transistor from zero here, as a foundation of everything. 
 
 ## What a transistor is
 A transistor is an electronic component that, in the modern world, we mostly visualize as an electronic switch (it can also amplify). The BJT has two types: **NPN** and **PNP**. The N and P refer to the type of semiconductor:
