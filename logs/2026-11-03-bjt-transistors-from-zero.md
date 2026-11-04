@@ -34,6 +34,9 @@ Gain exists only in the active region. There are two different ratios, and I mix
 
 So for every ~100 carriers coming from the emitter, about **99 reach the collector (that's α ≈ 0.99)** and only **~1 recombines in the base** — and that 1 is the base current. That gives Ic/Ib ≈ 99–100 = **β**. The strong collector field (from VCC on the collector) is what sweeps those carriers across.
 
+Shortly saying, Beta is a comparision: "For every 1 electron that gets trapped to base, how many do we get electrons?" Or "How much Collector current is bigger than base current?"
+And alpha can be viewed as a survival rate: "What fraction of emitter electrons successfully survives the trop of collector?"
+
 
 ## Transconductance 
 **gm = Ic / Vt**, where **Vt** is the **thermal voltage ≈ 26 mV** at room temperature (a constant — *not* Vbe).
