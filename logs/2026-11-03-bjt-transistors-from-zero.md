@@ -26,7 +26,7 @@ Three regions of operation:
 
 **Bias** = setting the default (DC) operating current/voltage — the Q-point.
 
-## Gain — β vs α (corrected ✅)
+## Gain — β vs α 
 Gain exists only in the active region. There are two different ratios, and I mixed them up at first:
 
 - **β (beta) = Ic / Ib ≈ 100** — the collector current is ~100× the base current.
@@ -34,14 +34,11 @@ Gain exists only in the active region. There are two different ratios, and I mix
 
 So for every ~100 carriers coming from the emitter, about **99 reach the collector (that's α ≈ 0.99)** and only **~1 recombines in the base** — and that 1 is the base current. That gives Ic/Ib ≈ 99–100 = **β**. The strong collector field (from VCC on the collector) is what sweeps those carriers across.
 
-> ⚠️ My earlier note said *"β = 100 means 99 go to the collector."* That 99-out-of-100 picture is actually **α**, not β. **β** counts how many reach the collector *per one carrier lost to the base*.
 
-## Transconductance (corrected ✅)
+## Transconductance 
 **gm = Ic / Vt**, where **Vt** is the **thermal voltage ≈ 26 mV** at room temperature (a constant — *not* Vbe).
 
 gm is really the *slope* ∂Ic/∂Vbe of the exponential Ic = Is·e^(Vbe/Vt); differentiating it gives Ic/Vt.
-
-> ⚠️ Earlier I wrote gm = Ic/Vbe "with Vbe simplifying to Vt." The final formula gm = Ic/Vt is right, but the reason is the derivative — and Vt is the thermal voltage, not Vbe.
 
 ## Core equations
 - Ic = β·Ib
