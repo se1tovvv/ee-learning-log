@@ -1,5 +1,6 @@
-This is the hardest, most challenging and demanding course I have ever witnessed so far. A lot of complex math, analysis and interpretation is needed for this subject.
-I will start with Fourier Transform.
+**This is the hardest, most challenging and demanding course I have ever witnessed so far. A lot of complex math, analysis and interpretation is needed for this subject.**
+
+*I will start with Fourier Transform.*
 
 The Fourier transform converts a signal from the time domain (how a signal changes over time) into the frequency domain (what constituent frequencies make up that signal)
 
