@@ -12,7 +12,7 @@ I like to view this physically as follows: Consider the situation where I am ent
 In that room we have a hundred of different swings, each oscillating on its own frequency due to different length. This is e^-jwt. But the strange pattern is that I could see that at some instant, one of the swings flies
 really high into air, while others barely move or stay completely still.  This is the Integral Spiking. When the math performs the integration (\(\int \)), it is checking to see if energy has piled up. If the forces match, the swing flies (the integral spikes to a large number). 
 If they don't match, the forces cancel out, and the swing stays completely still (the integral drops to 0) Computer would record this and tell the frequency of machine, 
-as he is given the individual frequencies of multiple swings. This is the Output Spectrum [\(X(\omega)\)]. The computer doesn't look at the wind; it looks at which swings are moving. If it sees the 0.5 Hz swing (the 2-second swing) flying,
+as he is given the individual frequencies of multiple swings. This is the Output Spectrum X(w). The computer doesn't look at the wind; it looks at which swings are moving. If it sees the 0.5 Hz swing (the 2-second swing) flying,
 it checks its chart and says with absolute certainty: "A 0.5 Hz rhythm exists in the wind."
 
 The same pattern is applied with LC resonators. Before computers, engineers would construct a boxes full of such resonators, each with different frequency. They would plug a messy electronic signal into the box, and whichever circuit started heating up or vibrating the most would light up a
